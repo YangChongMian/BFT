@@ -1,0 +1,38 @@
+<div ng-include="'data/include/header.html'"></div>
+
+<div id="two-img"><img src="image/seven/c01.jpg"/></div>
+<div id="two-all">
+    <div id="two-daohang">
+        <ul class="zuoul">
+            <li><a href="#">联系我们</a></li>
+
+        </ul>
+        <ul class="youul">
+            <li><a href="#">你现在的位置是:</a></li>
+            <li><a href="#">首页></a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="seven-bottom">
+    <ul id="seven-right">
+        <li><h2>总部联系方式</h2></li>
+        <li>地址：上海市闵行区北翟路1992号</li>
+        <li>电话：投诉电话：021-3419 1779（10:00-22:00）</li>
+        <li>传真：021-3419 1779</li>
+        <li>邮箱：bestfit_011@best-fit.net</li>
+        <li>邮编：355233</li>
+        <li>网址：http://www.best-fit.net/</li>
+    </ul>
+    <ul id="seven-left">
+        <li><input type="text" placeholder="请填写您的姓名" ng-model="userName"/></li>
+        <li><input type="number" placeholder="请填写您的电话" ng-model="userTel"/></li>
+        <li><input type="email" placeholder="请填写您的邮箱" ng-model="userEmail"/></li>
+        <li><textarea cols="30" rows="10" placeholder="详细内容" ng-model="userMsg"></textarea></li>
+    </ul>
+    <button id="seven-btn" ng-click="handleClick()">确认提交</button>
+</div>
+
+
+<div ng-include="'data/include/footer.html'"></div>

@@ -1,0 +1,51 @@
+<div ng-include="'data/include/header.html'"></div>
+
+    <div id="view" ng-controller="msgCtrl">
+
+
+        <div id="one-img"><img src="image/d01.jpg"/></div>
+
+
+        <h1>大众留言墙</h1>
+
+        <ul class="msg_list">
+            <li ng-repeat="temp in msgList track by $index">
+                <span class="name">&nbsp;&nbsp;姓名:&nbsp;&nbsp;{{temp.name}}</span>
+                <span class="msg">&nbsp;&nbsp;留言:&nbsp;&nbsp;{{temp.msg}}</span>
+            </li>
+        </ul>
+
+
+        <div id="fenye">
+            <ul>
+                <li>共41条</li>
+                <li>第1/4页</li>
+                <li>首页</li>
+                <li>上一页</li>
+                <li>下一页</li>
+                <li>末页</li>
+                <li>第<span>1</span>页</li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+<div ng-include="'data/include/footer.html'"></div>

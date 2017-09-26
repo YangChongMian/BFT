@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+
+
+  <div id="top">
+
+    <div id="top-zong" ng-controller="headerCtrl">
+      <div id="img">
+        <img src="image/LOGO.png"/>
+      </div>
+      <div id="zong">
+        <ul>
+          <li><a href="#/bftOne">网站首页</a></li>
+
+          <li class="li1" ng-mouseover="nav1()">
+            <a href="#/bftTwo">关于我们</a>
+            <ul ng-mouseleave="nav1_1()">
+              <li class="sanjiao"></li>
+              <li>公司简介</li>
+              <li>发展荣誉</li>
+              <li>企业文化</li>
+            </ul>
+          </li>
+          <li class="li2" ng-mouseover="nav2()">
+            <a href="#/bftThree">新闻活动</a>
+            <ul ng-mouseleave="nav2_1()">
+              <li class="sanjiao"></li>
+              <li>新闻活动</li>
+              <li>优惠活动</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#/bftFour">企业文化</a>
+          </li>
+          <li class="li3" ng-mouseover="nav3()">
+            <a href="#/bftFive">教练团队</a>
+            <ul ng-mouseleave="nav3_1()">
+              <li class="sanjiao"></li>
+              <li>精英教练</li>
+              <li>团操教练</li>
+              <li>私人教练</li>
+              <li>泳池教练</li>
+            </ul>
+          </li>
+          <li class="li4" ng-mouseover="nav4()">
+            <a href="#/bftSix">团操课程</a>
+            <ul ng-mouseleave="nav4_1()">
+              <li class="sanjiao"></li>
+              <li>课程表</li>
+              <li>课程介绍</li>
+              <li>特色课程</li>
+              <li>私人课程</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#/bftSeven">联系我们</a>
+          </li>
+          <li>
+            <a href="#/bftMsg">留言列表</a>
+          </li>
+        </ul>
+        <div id="right">
+          <a href="#">
+            <img ng-mouseover="GW()" ng-mouseout="YCGW()" src="image/01_03.jpg"/>
+            <img class="yincang" src="image/gw.jpg"/>
+          </a>
+          <a href="#">
+            <img ng-mouseover="WX()" ng-mouseout="YCWX()" src="image/02_03.jpg"/>
+            <img class="WX" src="image/WX.jpg"/>
+          </a>
+          <a href="#"><img src="image/04_03.jpg"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
